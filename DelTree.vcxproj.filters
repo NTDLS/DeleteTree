@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="SourceFiles">
+      <UniqueIdentifier>{25a34b01-5968-4b61-b0eb-d012747138cc}</UniqueIdentifier>
+      <Extensions>c;cpp;lib</Extensions>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{64a79c78-026f-4594-9d5d-0fb77a74bd45}</UniqueIdentifier>
+      <Extensions>res;rc;ico;bmp</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\DelTree.Cpp">
+      <Filter>SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Entry.Cpp">
+      <Filter>SourceFiles</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\DelTree.H">
+      <Filter>SourceFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Entry.H">
+      <Filter>SourceFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\resource.h">
+      <Filter>SourceFiles</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources\DelTree.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainIcon.ico">
+      <Filter>Resources</Filter>
+    </None>
+  </ItemGroup>
+</Project>
